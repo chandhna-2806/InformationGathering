@@ -29,23 +29,24 @@ http://www.whois.com/whois website to get detailed information about a domain na
 
 ## OUTPUT:
 
-
+![ex02-whois](img/whois.png)
 ## Finding IP address:
 ping command is available on Windows as well as on Linux OS. Following is the example to find out the IP address of facebook.com.
 ##output
 
-
+![ex02-ping](img/ping.png)
 
 ## Finding Hosting Company
 get further detail by using ip2location.com website.
-##output
+## output
 
-
+![ex02-ip2location](img/ip2location.png)
 
 ## History of the website:
 ## output
 https://web.archive.org/
 
+![ex02-webarchive](img/webarchive.png)
 
 # Webserver Fingerprinting:
 
@@ -54,15 +55,16 @@ sudo nc example.com 80
 GET / HTTP/1.1
 Host: example.com
 
-
+## output: 
+![ex02-netcad](img/ncexample.png)
 
 ## nmap:
-###output
-
-
-## Whatweb
 ### output
 
+![ex02-nmap](img/nmap.png)
+## Whatweb
+### output
+![ex02-whatweb](img/whatweb.png)
 
 ## httprint
 ### output
@@ -75,18 +77,18 @@ TCP Traceroute:
 sudo traceroute -T www.google.com
 ## output
 
+[ex02-tcp](img/traceroute.png)
 
 ## UDP Traceroute:
 sudo traceroute -U www.google.com
 ## output
-
-
+[ex02-udp](img/tracerouteu.png)
 
 ## ICMP Traceroute:
 sudo traceroute  www.google.com
 ## output
 
-
+[ex02-icmp](img/icmp.png)
 
 
 
