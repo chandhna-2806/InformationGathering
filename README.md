@@ -67,8 +67,7 @@ Host: example.com
 ![ex02-whatweb](img/whatweb.png)
 
 ## httprint
-### output
-
+![ex02-httprint](img/httprint.png)
 
 
 
@@ -77,18 +76,19 @@ TCP Traceroute:
 sudo traceroute -T www.google.com
 ## output
 
-[ex02-tcp](img/traceroute.png)
+![ex02-tcp](img/traceroute.png)
 
 ## UDP Traceroute:
 sudo traceroute -U www.google.com
 ## output
-[ex02-udp](img/tracerouteu.png)
+
+![ex02-udp](img/tracerouteu.png)
 
 ## ICMP Traceroute:
 sudo traceroute  www.google.com
 ## output
 
-[ex02-icmp](img/icmp.png)
+![ex02-icmp](img/icmp.png)
 
 
 
